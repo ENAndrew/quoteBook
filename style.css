@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    background-color: #66ffcc;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    width: 100%;
+    height: 60px;
+    margin-top: 0;
+    padding-top: 30px;
+    background-color: #006666;
+}
+
+.quoteBox {
+    width: 25%;
+    margin-bottom: 20px;
+    margin-left: 15%;
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+    border: #006666 solid 2px;
+}
+
+.quoteBox p {
+    font-family: sans-serif;
+}
+
+.author {
+    text-align: right;
+}
+
+.actionsBox {
+    float: right;
+    margin-right: 25%;
+    width: 25%;
+    max-width: 30%;
+}
+
+.addQuoteBox, .removeQuoteBox, .sortByBox {
+    margin-bottom: 20px;
+    border: white solid 1px;
+    padding: 20px;
+}
+
